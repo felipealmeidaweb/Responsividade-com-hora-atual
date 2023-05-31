@@ -4,9 +4,9 @@ function carregar(){
     var msg = document.querySelector("#txt")
     var img = document.querySelector("#img")
     var data = new Date()
-     //var horatual = data.getHours()
+     var horatual = data.getHours()
      //var de teste
-     var horatual = 10
+     //var horatual = 10
     msg.innerHTML = `agora são ${horatual} horas`
 
      if (horatual >= 0 && horatual < 12 ){
